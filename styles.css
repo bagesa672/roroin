@@ -1,0 +1,40 @@
+body {
+    margin:0;
+    font-family:Cambria,serif;
+    background:#f9f6f1;
+    color:#222;
+}
+header {
+    background:#3e2723;
+    color:white;
+    padding:2rem;
+    text-align:center;
+}
+.content {
+    display:flex;
+    padding:2rem;
+    gap:2rem;
+}
+.main {
+    flex:3;
+}
+.rightbar {
+    flex:1;
+    background:#eee;
+    padding:1rem;
+    background: url('books.jpg');
+    color: rgb(34, 14, 10);
+}
+.rightbar img {
+    width:100%;
+    height:auto;
+}
+h2 {
+    margin-top:0;
+}
+footer {
+    text-align:center;
+    background:#3e2723;
+    color:white;
+    padding:1rem;
+}
